@@ -5,13 +5,10 @@ there is a function to display number of times the function is called iterativel
 ## the complexity of this algorithm is (2^n)-1, where n is the number of discs
 so if we have 3 discs the number of steps required is 2^3-1 = 7 ( which is same as number of times the function is called)
 is will be exponentiall incresing as we increase the number of discs
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
- n   |   no of steps             |
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
- 2   |     3                     |
- 3   |     7                     |
- 4   |     15                    |
- 10  |     1023                  | 
- 14  |     16383                 |
- 64  |     18446744073709551615  |‬
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+n=2 then no of steps = 3
+n=3 then no of steps = 7
+n=4 then no of steps = 15
+n=10 then no of steps = 1023
+n=14 then no of steps = 16383
+n=64 then no of steps = 18446744073709551615
